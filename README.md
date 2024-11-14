@@ -10,7 +10,7 @@
 
 - 登录ip: 192.168.2.2
 - 用户名: root
-- 密码: 留空
+- 密码: password
 ## 感谢
 - 改编xydchen 集合docker 自动扩容：系统和docker
    在SSH下复制：
