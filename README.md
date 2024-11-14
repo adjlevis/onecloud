@@ -5,14 +5,19 @@
 
 ## 使用方法
 
-文件名包含burn的为线刷固件，解压后使用[Amlogic_USB_Burning_Tool](https://androiddatahost.com/khfj4)烧录。\
+文件名包含burn的为线刷固件，解压后使用[Amlogic_USB_Burning_Tool](https://androiddatahost.com/khfj4)烧录(2.13版更佳)。\
 红灯闪是在启动中，启动完成后蓝灯常亮。首次启动时间可能会长一些(五分钟左右)。
 
-- 登录ip: 192.168.10.99
+- 登录ip: 192.168.2.2
 - 用户名: root
-- 密码: password
-
+- 密码: 留空
 ## 感谢
+- 改编xydchen 集合docker 自动扩容：系统和docker
+   在SSH下复制：
+    wget -U "" -O expand-root.sh "https://openwrt.org/_export/code/docs/guide-user/advanced/expand_root?codeblock=0"
+    chmod +x expand-root.sh
+    ./expand-root.sh
+
 - 自动编译工作流改自 https://github.com/P3TERX/Actions-OpenWrt
 - 玩客云u-boot https://github.com/hzyitc/u-boot-onecloud
 - openwrt源码 https://github.com/coolsnowwolf/lede
